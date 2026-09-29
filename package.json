@@ -1,0 +1,16 @@
+{
+  "name": "cursodev_aulas",
+  "version": "1.0.0",
+  "description": "Aqui eu irei expor tudo o que estou aprendendo com o curso.dev e aplicando.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^13.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
