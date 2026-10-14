@@ -4,12 +4,13 @@
   "description": "Aqui eu irei expor tudo o que estou aprendendo com o curso.dev e aplicando.",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev",
+    "dev": "npm run compose:up && next dev",
     "lint:check": "prettier --check .",
     "lint:fix": "prettier --write .",
     "test": "jest",
     "test:watch": "jest --watchAll",
     "compose:up": "docker compose -f infra/compose.yaml up -d",
+    "compose:stop": "docker compose -f infra/compose.yaml stop",
     "compose:down": "docker compose -f infra/compose.yaml down"
   },
   "author": "",
